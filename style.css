@@ -1,0 +1,42 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #29488b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%
+}
+
+svg {
+    background-color: #DEF2F1;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#legend {
+    border: solid #DEF2F1;
+    color: #DEF2F1;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+#tooltip {
+    visibility: hidden;
+    width: auto;
+    height: auto;
+    border: solid;
+    padding: 5px;
+    border-radius: 5px;
+    color: #FEFFFF;
+    font-size: 20px;
+}
+
+.dot:hover {
+    r: 20px;
+}
